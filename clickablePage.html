@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>homework</title>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("h1").click(function(){
+  $("h1").addClass(".fancy");
+  });
+  $("h1").click(function(){
+  $("h1").addclass(".stale")
+  });
+});
+</script>
+
+<style>
+h1{
+  color:red;
+  font-family:sans-serif;
+  }
+.fancy{
+  color:blue;
+  border:10px solid green;
+}
+.stale{
+  color:tan;
+}
+</style>
+
+<h1> this will never be clickable</h1>
+
+</head>
+
+<body>
+</body>
+
+</html>
