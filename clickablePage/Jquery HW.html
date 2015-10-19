@@ -53,13 +53,13 @@ h1, h2, nav:hover{
         });
 
           $("h2:first-child").click(function(){
-            $("body").addClass("bgone");
-            $("body").removeClass("bg2 bg3");
+            $("body").toggleClass("bgone");
+
           });
 
 
           $("h2:nth-child(2)").click(function(){
-            $("body").addClass("bg2");
+            $("body").toggleClass("bg2");
             $("body").removeClass("bgone bg3");
             $("body").addClass("picture");
           });
